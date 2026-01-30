@@ -4,7 +4,16 @@
 Cabrel Tagwouo
 
 ## Objectif du projet
-Ce projet vise à développer une application web permettant de recommander des destinations de voyage personnalisées à un utilisateur, en se basant sur ses préférences et les caractéristiques des destinations. L’objectif est de fournir des recommandations pertinentes pour chaque utilisateur, tout en offrant des fonctionnalités de profilage et d’analyse des destinations.
+Ce projet vise à développer des Api-rest permettant de recommander des destinations de voyage personnalisées à un utilisateur, en se basant sur ses préférences et les caractéristiques des destinations. L’objectif est de fournir des recommandations pertinentes pour chaque utilisateur, tout en offrant des fonctionnalités de profilage et d’analyse des destinations.
+
+## fichiers principaux
+4 dossiers princiaux:
+|No|nom_dossier|description|
+|--|-------|---------------|
+|1| machien_learning|contient les informations de ML, geneartion de dataset, clustering, modeles|
+|2|recomenderApp| application de recommandation|
+|3|Accounts| gestion de l authentification|
+|4|travel_recommender| notre fichier de projet|
 
 ## Méthodologie
 
@@ -133,8 +142,8 @@ python manage.py runserver
 
 ## Technologies utilisées
 
-- Python 3.x
-- Django 5.x
+- Python 3.10.11
+- Django 5.2.10
 - Django REST Framework
 - Django REST Framework SimpleJWT (JWT)
 - Scikit-learn (KNN, KMeans)
