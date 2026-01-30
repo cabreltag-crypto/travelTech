@@ -142,8 +142,8 @@ python manage.py runserver
 
 ## Technologies utilisées
 
-- Python 3.x
-- Django 5.x
+- Python 3.10.11
+- Django 5.2.10
 - Django REST Framework
 - Django REST Framework SimpleJWT (JWT)
 - Scikit-learn (KNN, KMeans)
