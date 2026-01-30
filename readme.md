@@ -6,6 +6,9 @@ Cabrel Tagwouo
 ## Objectif du projet
 Ce projet vise à développer des Api-rest permettant de recommander des destinations de voyage personnalisées à un utilisateur, en se basant sur ses préférences et les caractéristiques des destinations. L’objectif est de fournir des recommandations pertinentes pour chaque utilisateur, tout en offrant des fonctionnalités de profilage et d’analyse des destinations.
 
+## Documentation
+Swagger UI disponible sur http://localhost:8000/
+
 ## fichiers principaux
 4 dossiers princiaux:
 |No|nom_dossier|description|
@@ -143,7 +146,7 @@ python manage.py runserver
 ## Technologies utilisées
 
 - Python 3.10.11
-- Django 5.2.10
+- Django 
 - Django REST Framework
 - Django REST Framework SimpleJWT (JWT)
 - Scikit-learn (KNN, KMeans)
