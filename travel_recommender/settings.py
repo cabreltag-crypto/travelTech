@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'recomenderApp',
     'rest_framework',
     'rest_framework_simplejwt.token_blacklist',
+    'drf_yasg',
     
     
     
@@ -158,4 +159,15 @@ SIMPLE_JWT = {
 
     'ROTATE_REFRESH_TOKENS': True,
     'BLACKLIST_AFTER_ROTATION': True,
+}
+
+SWAGGER_SETTINGS = {
+    'SECURITY_DEFINITIONS': {
+        'Bearer': {
+            'type': 'apiKey',
+            'name': 'Authorization',
+            'in': 'header',
+            'description': 'JWT Authorization header. Exemple: Bearer <token>',
+        }
+    },
 }
